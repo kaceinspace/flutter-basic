@@ -13,7 +13,7 @@ class ArticleListScreen extends StatelessWidget {
     },
     {
       'title': 'State Management',
-      'description': 'Provider, Bloc, Riverpod',
+      'description': 'Get X,Provider, Bloc, Riverpod',
       'image': 'https://picsum.photos/200/300?2'
     },
   ];
