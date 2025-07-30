@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:xii_rpl_1/container_widget/container_dua.dart';
 import 'package:xii_rpl_1/container_widget/container_satu.dart';
+import 'package:xii_rpl_1/grid_view/grid_screen.dart';
+import 'package:xii_rpl_1/latihan/home_screen.dart';
 import 'package:xii_rpl_1/latihan/latihan_satu.dart';
+import 'package:xii_rpl_1/list_widget/list_screen.dart';
 import 'package:xii_rpl_1/main_layout.dart';
 import 'package:xii_rpl_1/row_column_widget/column_satu.dart';
 import 'package:xii_rpl_1/row_column_widget/latihan_row_column.dart';
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: KombinasiWidget(),
+      home: HomeScreen(),
     );
   }
 }
